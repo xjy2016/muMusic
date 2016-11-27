@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#music-bg{
+	width: 320px;
+	height: 568px;
+	margin: 0 auto;
+	position: relative;
+	background: #000;
+	overflow: hidden;
+}
+.top{
+	width: 320px;
+	height: 23px;
+}
+.top img{
+	display: block;
+	float: left;
+}
+.title{
+	width: 320px;
+	height: 30px;
+	text-align: center;
+	background: url(../images/2.png) no-repeat center;
+	font: 400 24px/30px "微软雅黑";
+	color: white;
+}
+.singer{
+	width: 320px;
+	height: 30px;
+	text-align: center;
+	font: 700 14px/30px "微软雅黑";
+	color: #ccc;
+}
+.play{
+	width: 190px;
+	height: 190px;
+	background: url(../images/3.png);
+	margin: 20px auto;
+	border-radius: 50%;
+}
+.rotate{
+	animation: rot 5s linear infinite;
+}
+@keyframes rot{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.lrc{
+	width: 320px;
+	height: 245px;
+	overflow: hidden;
+}
+.content{
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.lrc p{
+	font: 12px/1.5 "微软雅黑";
+	text-align: center;
+	color: #ccc;
+}
+#lrc{
+	display: none;
+}
